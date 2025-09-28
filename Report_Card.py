@@ -1,0 +1,12 @@
+name = input("Enter your name: ")
+math = input("Enter Maths marks: ")
+science = input("Enter Science marks: ")
+english_grammer = input("Enter English grammer marks: ")
+hindi = input("Enter Hindi marks: ")
+english_literature = input("Enter English Literature marks: ")
+sanskrit = input("Enter Sanskrit marks: ")
+computer = input("Enter Computer marks: ")
+social_science = input("Enter Social Science marks: ")
+total = int(math) + int(science) + int(english_grammer) + int(hindi) + int(english_literature) + int(sanskrit) + int(computer) + int(social_science) %8
+print("Name: ", name)
+print(name,"Total Percentage: ", total)
